@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js",
+    "test": "eslint ."
   },
   "author": "",
   "license": "ISC",
@@ -14,6 +15,8 @@
     "eslint-plugin-import": "^2.7.0"
   },
   "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
     "ipp": "^1.1.0",
     "pdfkit": "^0.8.3",
     "request": "^2.83.0",

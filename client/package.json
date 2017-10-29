@@ -1,0 +1,37 @@
+{
+  "name": "shipping-label-printer-client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "blob-stream": "^0.1.3",
+    "bootstrap": "^4.0.0-beta.2",
+    "isomorphic-fetch": "^2.2.1",
+    "jquery": "^3.2.1",
+    "pdfkit": "^0.8.3",
+    "popper.js": "^1.12.6",
+    "prop-types": "^15.6.0",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "react-redux": "^5.0.6",
+    "react-router": "^3.2.0",
+    "react-router-redux": "^4.0.8",
+    "react-scripts": "1.0.14",
+    "redux": "^3.7.2",
+    "redux-form": "^7.1.2",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.2.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "eslint": "^4.10.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-react": "^7.4.0"
+  },
+  "proxy": "http://localhost:8080/"
+}
